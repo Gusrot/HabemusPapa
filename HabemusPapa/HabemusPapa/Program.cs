@@ -12,7 +12,7 @@ namespace HabemusPapa
         {
            
 
-            /*Conclave vaticano = 5;
+            Conclave vaticano = 5;
 
             Cardenal c1 = new Cardenal("Ángelo", "Pío XIII", ENacionalidades.Italiano);
             Cardenal c2 = new Cardenal("Roberto", "Juan XIV");
@@ -22,7 +22,7 @@ namespace HabemusPapa
             Cardenal c6 = new Cardenal("John", "Peter II", ENacionalidades.Nigeriano);
             Cardenal c7 = new Cardenal("John", "Peter II", ENacionalidades.Polaco);
 
-            AGREGO CARDENALES AL CONCLAVE
+            //AGREGO CARDENALES AL CONCLAVE
 
             vaticano += c1;
             vaticano += c2;
@@ -46,7 +46,7 @@ namespace HabemusPapa
 
             //MUESTRO EL RESULTADO DEL CONCLAVE
             Console.WriteLine(vaticano.Mostrar());
-            Console.ReadLine();*/
+            Console.ReadLine();
         }
     }
 }

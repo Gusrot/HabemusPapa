@@ -75,7 +75,7 @@ namespace HabemusPapa
         {
             foreach (Cardenal item in con._cardenales)
             {
-                if (item.Equals(c))
+                if (item == c)
                     return true;
             }
             return false;
@@ -84,6 +84,21 @@ namespace HabemusPapa
         public static bool operator !=(Conclave con, Cardenal c)
         {
             return !(con == c);
+        }
+
+        public static Conclave operator +(Conclave con, Cardenal c)
+        {
+            if (con.HayLugar())
+            {
+                con._cardenales.Add(c);
+            }
+
+            return con;
+        }
+
+        public static bool explicit bool(Conclave con)
+        {
+            
         }
 
     }
